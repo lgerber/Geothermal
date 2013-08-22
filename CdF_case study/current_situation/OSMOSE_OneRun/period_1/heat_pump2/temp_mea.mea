@@ -1,0 +1,19 @@
+hp_evap_out_t 3.600000E+001 CST
+hp_cond_out_t 7.000000E+001 CST
+compressor_effic 8.000000E-001 CST
+hp_evap_out_massf 1.000000E+001 CST
+hp_massf_max 1.000000E+002 CST
+evap_dtmin 4.000000E+000 CST
+desuph_dtmin 2.000000E+000 CST
+cond_dtmin 2.000000E+000 CST
+h_evap 1.300000E+001 CST
+h_desuph 2.500000E-001 CST
+h_cond 1.300000E+001 CST
+elec_price 1.500000E-001 CST
+hp_lifetime 5.000000E+001 CST
+wf_req_kW 3.090000E-001 CST
+wf_loss 1.600000E-008 CST
+wf_eol 2.000000E-001 CST
+ARCHIVE vali_output_tags.txt
+DATA TAG
+

@@ -1,0 +1,110 @@
+Display statement at line 369
+Units_Mult[muschelkalk_geo_deep].val = 0.342871426316878
+Units_Mult[heat_pump2_heat_pump].val = 0.688357088290885
+Units_Mult[heat_pump1_heat_pump].val = 0
+Units_Mult[demand_profiles_district_heating].val = 1
+Units_Mult[cridor_heat_cridor].val = 1
+Units_Mult[gas_boiler_gas_boiler].val = 2329.45647367916
+Units_Mult[wood_boiler_wood_boiler].val = 1
+Display statement at line 370
+Units_Use[muschelkalk_geo_deep].val = 1
+Units_Use[heat_pump2_heat_pump].val = 1
+Units_Use[heat_pump1_heat_pump].val = 0
+Units_Use[demand_profiles_district_heating].val = 1
+Units_Use[cridor_heat_cridor].val = 1
+Units_Use[gas_boiler_gas_boiler].val = 1
+Units_Use[wood_boiler_wood_boiler].val = 1
+Display statement at line 382
+Streams_Cost[osmose_default_model_DefaultOpCost,nd_profiles_district_heating_district_heating_Cost,demand_profiles_district_heating].val = 0
+Streams_Cost[osmose_default_model_DefaultOpCost,muschelkalk_geo_deep_geo_deep_Cost,muschelkalk_geo_deep].val = 13069.4084500621
+Streams_Cost[osmose_default_model_DefaultOpCost,heat_pump2_heat_pump_heat_pump_Cost,heat_pump2_heat_pump].val = 4657041.33283504
+Streams_Cost[osmose_default_model_DefaultOpCost,heat_pump1_heat_pump_heat_pump_Cost,heat_pump1_heat_pump].val = 0
+Streams_Cost[osmose_default_model_DefaultOpCost,cridor_heat_cridor_heat_cridor_Cost,cridor_heat_cridor].val = -1000
+Streams_Cost[osmose_default_model_DefaultOpCost,gas_boiler_gas_boiler_gas_boiler_Cost,gas_boiler_gas_boiler].val = 23294564.7367916
+Streams_Cost[osmose_default_model_DefaultOpCost,wood_boiler_wood_boiler_wood_boiler_Cost,wood_boiler_wood_boiler].val = 227.368421052632
+Streams_Cost[osmose_default_model_DefaultInvCost,nd_profiles_district_heating_district_heating_Cinv,demand_profiles_district_heating].val = 0
+Streams_Cost[osmose_default_model_DefaultInvCost,muschelkalk_geo_deep_geo_deep_Cinv,muschelkalk_geo_deep].val = 5370000
+Streams_Cost[osmose_default_model_DefaultInvCost,heat_pump2_heat_pump_heat_pump_Cinv,heat_pump2_heat_pump].val = 0
+Streams_Cost[osmose_default_model_DefaultInvCost,heat_pump1_heat_pump_heat_pump_Cinv,heat_pump1_heat_pump].val = 0
+Streams_Cost[osmose_default_model_DefaultInvCost,cridor_heat_cridor_heat_cridor_Cinv,cridor_heat_cridor].val = 0
+Streams_Cost[osmose_default_model_DefaultInvCost,gas_boiler_gas_boiler_gas_boiler_Cinv,gas_boiler_gas_boiler].val = 0
+Streams_Cost[osmose_default_model_DefaultInvCost,wood_boiler_wood_boiler_wood_boiler_Cinv,wood_boiler_wood_boiler].val = 0
+Streams_Cost[osmose_default_model_DefaultMechPower,d_profiles_district_heating_district_heating_Power,demand_profiles_district_heating].val = 0
+Streams_Cost[osmose_default_model_DefaultMechPower,muschelkalk_geo_deep_geo_deep_Power,muschelkalk_geo_deep].val = 3.63039123612837
+Streams_Cost[osmose_default_model_DefaultMechPower,heat_pump2_heat_pump_heat_pump_Power,heat_pump2_heat_pump].val = 258.724518490836
+Streams_Cost[osmose_default_model_DefaultMechPower,heat_pump1_heat_pump_heat_pump_Power,heat_pump1_heat_pump].val = 0
+Streams_Cost[osmose_default_model_DefaultMechPower,cridor_heat_cridor_heat_cridor_Power,cridor_heat_cridor].val = 0
+Streams_Cost[osmose_default_model_DefaultMechPower,gas_boiler_gas_boiler_gas_boiler_Power,gas_boiler_gas_boiler].val = 0
+Streams_Cost[osmose_default_model_DefaultMechPower,wood_boiler_wood_boiler_wood_boiler_Power,wood_boiler_wood_boiler].val = 0
+Display statement at line 383
+Units_Cost[osmose_default_model_DefaultOpCost,demand_profiles_district_heating].val = 0
+Units_Cost[osmose_default_model_DefaultOpCost,muschelkalk_geo_deep].val = 13069.4084500621
+Units_Cost[osmose_default_model_DefaultOpCost,heat_pump2_heat_pump].val = 4657041.33283504
+Units_Cost[osmose_default_model_DefaultOpCost,heat_pump1_heat_pump].val = 0
+Units_Cost[osmose_default_model_DefaultOpCost,cridor_heat_cridor].val = -1000
+Units_Cost[osmose_default_model_DefaultOpCost,gas_boiler_gas_boiler].val = 23294564.7367916
+Units_Cost[osmose_default_model_DefaultOpCost,wood_boiler_wood_boiler].val = 227.368421052632
+Units_Cost[osmose_default_model_DefaultInvCost,demand_profiles_district_heating].val = 0
+Units_Cost[osmose_default_model_DefaultInvCost,muschelkalk_geo_deep].val = 5370000
+Units_Cost[osmose_default_model_DefaultInvCost,heat_pump2_heat_pump].val = 0
+Units_Cost[osmose_default_model_DefaultInvCost,heat_pump1_heat_pump].val = 0
+Units_Cost[osmose_default_model_DefaultInvCost,cridor_heat_cridor].val = 0
+Units_Cost[osmose_default_model_DefaultInvCost,gas_boiler_gas_boiler].val = 0
+Units_Cost[osmose_default_model_DefaultInvCost,wood_boiler_wood_boiler].val = 0
+Units_Cost[osmose_default_model_DefaultMechPower,demand_profiles_district_heating].val = 0
+Units_Cost[osmose_default_model_DefaultMechPower,muschelkalk_geo_deep].val = 3.63039123612837
+Units_Cost[osmose_default_model_DefaultMechPower,heat_pump2_heat_pump].val = 258.724518490836
+Units_Cost[osmose_default_model_DefaultMechPower,heat_pump1_heat_pump].val = 0
+Units_Cost[osmose_default_model_DefaultMechPower,cridor_heat_cridor].val = 0
+Units_Cost[osmose_default_model_DefaultMechPower,gas_boiler_gas_boiler].val = 0
+Units_Cost[osmose_default_model_DefaultMechPower,wood_boiler_wood_boiler].val = 0
+Display statement at line 384
+Locations_Cost[osmose_default_model_DefaultOpCost,osmose_default_model_def_location].val = 27963902.8464978
+Locations_Cost[osmose_default_model_DefaultInvCost,osmose_default_model_def_location].val = 5370000
+Locations_Cost[osmose_default_model_DefaultMechPower,osmose_default_model_def_location].val = 262.354909726964
+Display statement at line 385
+Costs_Cost[osmose_default_model_DefaultOpCost].val = 27963902.8464978
+Costs_Cost[osmose_default_model_DefaultInvCost].val = 5370000
+Costs_Cost[osmose_default_model_DefaultMechPower].val = 262.354909726964
+Display statement at line 386
+Cost_generatedGroups_power has empty content
+Display statement at line 387
+YearlyOperatingCost.val = 0
+Display statement at line 396
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,muschelkalk_geo_deep_geo_heat].val = 0.342871426316878
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,heat_pump2_heat_pump_evap].val = 0.688357088290885
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,heat_pump2_heat_pump_desuph].val = 0.688357088290885
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,heat_pump2_heat_pump_cond].val = 0.688357088290885
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,heat_pump1_heat_pump_evap].val = 0
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,heat_pump1_heat_pump_desuph].val = 0
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,heat_pump1_heat_pump_cond].val = 0
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,demand_profiles_district_heating_dhn_load].val = 1
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,cridor_heat_cridor_dhn_cridor].val = 1
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,gas_boiler_gas_boiler_gas_boilerst].val = 2329.45647367916
+HC_Streams_Mult[osmose_default_model_DefaultHeatCascade,wood_boiler_wood_boiler_wood_boilerst].val = 1
+Display statement at line 397
+Streams_Q[osmose_default_model_DefaultHeatCascade,muschelkalk_geo_deep_geo_heat].val = 759.044477687477
+Streams_Q[osmose_default_model_DefaultHeatCascade,heat_pump2_heat_pump_evap].val = 759.044477687477
+Streams_Q[osmose_default_model_DefaultHeatCascade,heat_pump2_heat_pump_desuph].val = 96.310793651131
+Streams_Q[osmose_default_model_DefaultHeatCascade,heat_pump2_heat_pump_cond].val = 921.462332669711
+Streams_Q[osmose_default_model_DefaultHeatCascade,heat_pump1_heat_pump_evap].val = 0
+Streams_Q[osmose_default_model_DefaultHeatCascade,heat_pump1_heat_pump_desuph].val = 0
+Streams_Q[osmose_default_model_DefaultHeatCascade,heat_pump1_heat_pump_cond].val = 0
+Streams_Q[osmose_default_model_DefaultHeatCascade,demand_profiles_district_heating_dhn_load].val = 14340.8696
+Streams_Q[osmose_default_model_DefaultHeatCascade,cridor_heat_cridor_dhn_cridor].val = 8990
+Streams_Q[osmose_default_model_DefaultHeatCascade,gas_boiler_gas_boiler_gas_boilerst].val = 2329.45647367916
+Streams_Q[osmose_default_model_DefaultHeatCascade,wood_boiler_wood_boiler_wood_boilerst].val = 2003.64
+Display statement at line 398
+HC_generatedGroups_load has empty content
+Display statement at line 399
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,1].val = 0
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,2].val = 759.044477687476
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,3].val = 742.717948782715
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,4].val = 723.526259543294
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,5].val = 0
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,6].val = 0
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,7].val = 0
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,8].val = 4430.40518254544
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,9].val = 1902.86394799362
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,10].val = 1895.55131251011
+HC_Rk[osmose_default_model_DefaultHeatCascade,osmose_default_model_def_location,11].val = 0

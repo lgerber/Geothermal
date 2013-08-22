@@ -1,0 +1,21 @@
+model C:\models\Geotherm_CdF_scenarios\OSMOSE_temp\EnergyIntegration\eiampl_model.mod;
+data C:\models\Geotherm_CdF_scenarios\OSMOSE_temp\EnergyIntegration\eiampldata.in;
+
+
+# Objective function
+minimize ObjectiveFunction : Costs_Cost['osmose_default_model_DefaultOpCost'];
+ 
+option display_1col 1000000000.00000000000000000000000000000000000000000000000000 ;
+option display_eps 0.00001000000000000000100000000000000000000000000000 ;
+option presolve_eps 0.00010000000000000000000000000000000000000000000000 ;
+
+option solver cplex ;
+
+solve;
+
+print solve_result > C:\models\Geotherm_CdF_scenarios\OSMOSE_temp\EnergyIntegration\AmplConvergence.txt ;
+
+printf {j in 1.._nvars} "%s\t%.50f\n", _varname[j], _var[j] > C:\models\Geotherm_CdF_scenarios\OSMOSE_temp\EnergyIntegration\eiamplAll.out;
+
+printf {j in 1.._nobjs} "%s\t%.50f\n", _objname[j], _obj[j] >> C:\models\Geotherm_CdF_scenarios\OSMOSE_temp\EnergyIntegration\eiamplAll.out;
+
